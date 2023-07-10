@@ -1,0 +1,48 @@
+.App {
+    width: 457px;
+    height: 880px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding: 0 20px;
+}
+
+.display {
+    font-size: 100px;
+    margin-top: 9rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.display-font {
+    font-size: 75px;
+    margin-bottom: 37px;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bottom {
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+}
